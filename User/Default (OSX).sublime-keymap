@@ -1,0 +1,47 @@
+[
+    {
+        "keys": ["super+shift+space"],
+        "command": "expand_region"
+    },
+    {
+        "keys": ["super+u"],
+        "command": "expand_region",
+        "args": {"undo": true},
+        "context": [{ "key": "expand_region_soft_undo" }]
+    },
+    {
+        "keys": ["control+r"],
+        "args": {"action": "remove_tag"},
+        "command": "run_emmet_action",
+        "context": [{"key": "emmet_action_enabled.remove_tag"}]
+    },
+    {
+        "keys": ["control+shift+c"],
+        "command": "reindent",
+        "args": {"single_line": false}
+    },
+    {
+        "keys": ["control+3"],
+        "command": "goto_css_declaration",
+        "args": {"goto": "next"}
+    },
+    {
+        "keys": ["control+5"],
+        "command": "goto_css_declaration",
+        "args": {"goto": "prev"}
+    },
+    {
+        "keys": ["super+left"],
+        "command": "move_to",
+        "args": {"to": "bol", "extend": false}
+    },
+    {
+        "keys": ["super+right"],
+        "command": "move_to",
+        "args": {"to": "eol", "extend": false}
+    },
+    { 
+        "keys": ["control+r"], 
+        "command": "toggle_side_bar" 
+    }
+]

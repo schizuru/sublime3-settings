@@ -1,0 +1,21 @@
+backrefs/
+markupsafe/
+mdpopups/
+pygments/
+pymdownx/
+python-jinja2/
+python-markdown/
+PyV8/
+pyyaml/
+User/*
+!User/*.sublime-snippet
+!User/Package\ Control.sublime-settings
+!User/Default\ (OSX).sublime-keymap
+!User/Preferences.sublime-settings
+!User/CSS.sublime-settings
+!User/HTML.sublime-settings
+!User/Java\ Server\ Pages\ (JSP).sublime-settings
+!User/Cobalt2.sublime-theme
+!User/installer
+!User/Monokai.tmTheme
+

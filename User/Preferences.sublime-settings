@@ -1,0 +1,45 @@
+{
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_extra_width": 2,
+	"color_scheme": "Packages/User/Monokai.tmTheme",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"*.psd",
+		"*.sublime-project",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".sass-cache",
+		"node_modules"
+	],
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"highlight_whitespaces_eol_highlight_scope_name": "highlight.whitespace",
+	"highlight_whitespaces_mixed_highlight_scope_name": "highlight.whitespace",
+	"highlight_whitespaces_space_highlight_scope_name": "highlight.whitespace",
+	"highlight_whitespaces_tab_highlight_scope_name": "highlight.whitespace",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"match_brackets": true,
+	"match_tags": true,
+	"show_definitions": false,
+	"tab_size": 4,
+	"theme": "Cobalt2.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
