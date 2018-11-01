@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$('$1').on('click', $2 function($3) {
-    $4
-});
-]]></content>
-    <tabTrigger>jon</tabTrigger>
-</snippet>

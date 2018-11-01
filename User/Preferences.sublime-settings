@@ -9,14 +9,17 @@
 	[
 		".DS_Store",
 		"*.psd",
-		"*.sublime-project",
-		"*.sublime-workspace"
+		"*.last-run",
+		"*.merged-ca-bundle",
+		"*.user-ca-bundle",
+		"*.crt"
 	],
 	"folder_exclude_patterns":
 	[
 		".svn",
 		".git",
 		".sass-cache",
+		"Package Control.cache",
 		"node_modules"
 	],
 	"font_size": 14,

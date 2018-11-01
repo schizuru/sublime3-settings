@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-@media #{\$screen-$0} {
-    $1
-}
-]]></content>
-    <tabTrigger>smedia</tabTrigger>
-</snippet>

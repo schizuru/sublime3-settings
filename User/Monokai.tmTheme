@@ -1509,7 +1509,7 @@
 </dict>
 
 
-		
+
 		<dict>
 			<key>name</key>
 			<string>Unmatched</string>
@@ -1593,7 +1593,7 @@
 				<string>#b2e5a8</string>
 			</dict>
 		</dict>
-		
+
         <dict>
             <key>name</key>
             <string>highlight.whitespace</string>
@@ -1607,7 +1607,7 @@
                 <string>#ff0000</string>
             </dict>
         </dict>
-		
+
 		<dict>
 			<key>name</key>
 			<string>PHP Tags</string>
@@ -1619,9 +1619,9 @@
 				<string>#7ecdff</string>
 			</dict>
 		</dict>
-		
 
-		
+
+
 		<dict>
 			<key>name</key>
 			<string>Embedded Code Punctuation</string>
@@ -1668,9 +1668,9 @@
 				<string>#E6DB74</string>
 			</dict>
 		</dict>
-		
 
-		
+
+
 		<dict>
 			<key>name</key>
 			<string>JSON Key</string>
@@ -1683,7 +1683,7 @@
 			</dict>
 		</dict>
 
-		
+
 
 		<dict>
 			<key>settings</key>
@@ -1742,7 +1742,7 @@
 				<string>#75715E</string>
 			</dict>
 		</dict>
-		
+
         <dict>
             <key>name</key>
             <string>Server Side Includes</string>
@@ -1754,7 +1754,7 @@
                 <string>#ffab3f</string>
             </dict>
         </dict>
-		
+
 		<dict>
 			<key>name</key>
 			<string>String</string>
@@ -1926,24 +1926,7 @@
 				<string>#A6E22E</string>
 			</dict>
 		</dict>
-
-		
-		<dict>
-			<key>name</key>
-			<string>Tag ng attribute</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.data</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#6acc4c</string>
-			</dict>
-		</dict>
-		
-
-		
+        <!-- Angular -->
 		<dict>
 			<key>name</key>
 			<string>Tag ng attribute</string>
@@ -1959,7 +1942,20 @@
 		</dict>
         <dict>
             <key>name</key>
-            <string>Tag ng attribute</string>
+            <string>Tag data attribute</string>
+            <key>scope</key>
+            <string>entity.other.attribute-name.data</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#6acc4c</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Tag data ng attribute</string>
             <key>scope</key>
             <string>entity.other.attribute-name.data-ng</string>
             <key>settings</key>
@@ -1970,8 +1966,21 @@
                 <string>#ff9ab2</string>
             </dict>
         </dict>
-		
 
+        <dict>
+            <key>name</key>
+            <string>Tag data ng c directive attribute</string>
+            <key>scope</key>
+            <string>entity.other.attribute-name.data-ng-c-directive</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string />
+                <key>foreground</key>
+                <string>#60bfff</string>
+            </dict>
+        </dict>
+        <!-- /Angular -->
 		<dict>
 			<key>name</key>
 			<string>Library function</string>

@@ -503,17 +503,30 @@ contexts:
       scope: string.unquoted.html meta.class-name.html
       pop: true
     - include: else-pop
-
+  # Angular
+  # ng-
   tag-ng-attribute:
     - match: \b(ng-[a-zA-Z\-:]+)
       captures:
         1: entity.other.attribute-name.ng.html
         2: punctuation.separator.key-value.html
-
+  # data-
+  tag-data-attribute:
+    - match: \b(data-[a-zA-Z\-:]+)
+      captures:
+        1: entity.other.attribute-name.data.html
+        2: punctuation.separator.key-value.html
+  # data-ng-
   tag-data-ng-attribute:
     - match: \b(data-ng-[a-zA-Z\-:]+)
       captures:
-        1: entity.other.attribute-name.ng.html
+        1: entity.other.attribute-name.data-ng.html
+        2: punctuation.separator.key-value.html
+  # data-c-
+  tag-data-ng-c-directive-attribute:
+    - match: \b(data-c-[a-zA-Z\-:]+)
+      captures:
+        1: entity.other.attribute-name.data-ng-c-directive.html
         2: punctuation.separator.key-value.html
 
   tag-id-attribute:
@@ -646,6 +659,8 @@ contexts:
   tag-attributes:
     - include: tag-ng-attribute
     - include: tag-data-ng-attribute
+    - include: tag-data-ng-c-directive-attribute
+    - include: tag-data-attribute
     - include: tag-id-attribute
     - include: tag-class-attribute
     - include: tag-style-attribute

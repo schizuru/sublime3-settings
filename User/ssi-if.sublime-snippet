@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<!--#if expr="$1" -->
-    $2
-<!--#endif -->
-
-]]></content>
-	<tabTrigger>ssiif</tabTrigger>
-</snippet>
