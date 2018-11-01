@@ -1738,6 +1738,8 @@
                 <string>comment</string>
                 <key>settings</key>
                 <dict>
+                    <key>background</key>
+                    <string>#000</string>
                     <key>foreground</key>
                     <string>#75715E</string>
                 </dict>
