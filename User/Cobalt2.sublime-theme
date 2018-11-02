@@ -1,6 +1,44 @@
 [
     {
+        "class": "tool_tip_label_control",
+        "font.size": 18,
+    },
+    {
+        "class": "sidebar_tree",
+        "row_padding": [2, 3],
+        "indent": 2,
+        "indent_offset": 12,
+    },
+    {
         "class": "sidebar_label",
+        "color": [200, 200, 200],
         "font.size": 16
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "color": [255, 200, 0],
+    },
+
+
+
+
+    {
+        "class": "tab_label",
+        "fg": [255, 255, 255],
+        "font.size": 14,
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [1, 1]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        "fg": [255, 200, 0],
+        "shadow_color": [30, 30, 30]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "shadow_color": [0, 0, 0]
     },
 ]
