@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+var $0 = (function() {
+
+    var publicMethodOne = function() {
+    
+    };
+
+    return {
+        publicMethodOne: publicMethodOne,
+        publicMethodTwo: function() {
+        }
+    };
+
+}());
+]]></content>
+	<tabTrigger>jmp</tabTrigger>
+</snippet>

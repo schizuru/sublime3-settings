@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+]]></content>
+	<tabTrigger>cssclearfix</tabTrigger>
+</snippet>

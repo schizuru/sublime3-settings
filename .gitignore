@@ -7,8 +7,9 @@ python-jinja2/
 python-markdown/
 PyV8/
 pyyaml/
+Emmet\ Css\ Snippets/
 User/*
-!User/*.sublime-snippet
+!User/snippets/
 !User/Package\ Control.sublime-settings
 !User/Default\ (OSX).sublime-keymap
 !User/Preferences.sublime-settings
@@ -18,4 +19,3 @@ User/*
 !User/Cobalt2.sublime-theme
 !User/installer
 !User/Monokai.tmTheme
-

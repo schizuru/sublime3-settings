@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+var $0 = {  
+    functionName: function() {
+    }
+};
+]]></content>
+	<tabTrigger>jaf</tabTrigger>
+</snippet>
