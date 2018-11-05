@@ -8,6 +8,9 @@ python-markdown/
 PyV8/
 pyyaml/
 Emmet\ Css\ Snippets/
+Theme\ -\ Cobalt2/
+AngularJS/
+
 User/*
 !User/snippets/
 !User/Package\ Control.sublime-settings

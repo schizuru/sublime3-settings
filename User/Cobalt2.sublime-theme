@@ -1,23 +1,7 @@
 [
     {
         "class": "tool_tip_label_control",
-        "font.size": 18,
-    },
-    {
-        "class": "sidebar_tree",
-        "row_padding": [2, 3],
-        "indent": 2,
-        "indent_offset": 12,
-    },
-    {
-        "class": "sidebar_label",
-        "color": [200, 200, 200],
-        "font.size": 16
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [255, 200, 0],
+        "font.size": 18
     },
 
     {
@@ -33,9 +17,75 @@
         "fg": [255, 200, 0],
         "shadow_color": [30, 30, 30]
     },
+
+
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "shadow_color": [0, 0, 0]
+    },
+    {
+        "class": "sidebar_tree",
+        "row_padding": [2, 3],
+        "indent": 17,
+        "indent_offset": 2
+    },
+
+    {
+        "class": "sidebar_label",
+        "color": [200, 200, 200],
+        "font.size": 16
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "color": [255, 255, 255]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "color": [255, 255, 255],
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "color": [255, 200, 0]
+    },
+
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Theme - Cobalt2/icons/folder@2x.png",
+        "layer0.opacity": 0.6,
+        "content_margin": [7, 7]
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "layer0.texture": "Theme - Cobalt2/Cobalt2/folder_open.png",
+        "layer0.opacity": 1,
+        "content_margin": [7, 8]
+    },
+
+
+    {
+        "class": "disclosure_button_control",
+        "content_margin": 0,
+        "layer0.opacity": 0.6
+    },
+    {
+        "class": "disclosure_button_control",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "disclosure_button_control",
+        "content_margin": 0,
+        "attributes": ["expanded"],
+        "layer0.opacity": 1
     },
 ]
