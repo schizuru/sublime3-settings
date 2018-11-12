@@ -1,9 +1,11 @@
 [
+    // ToolTip
     {
         "class": "tool_tip_label_control",
         "font.size": 18
     },
 
+    // Tab
     {
         "class": "tab_label",
         "fg": [255, 255, 255],
@@ -17,13 +19,14 @@
         "fg": [255, 200, 0],
         "shadow_color": [30, 30, 30]
     },
-
-
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "fg": [255, 200, 0],
         "shadow_color": [0, 0, 0]
     },
+
+    // SideBar Tree
     {
         "class": "sidebar_tree",
         "row_padding": [2, 3],
@@ -31,6 +34,7 @@
         "indent_offset": 2
     },
 
+    // SideBar Label
     {
         "class": "sidebar_label",
         "color": [200, 200, 200],
@@ -52,11 +56,13 @@
         "color": [255, 200, 0]
     },
 
+    // Icon
     {
         "class": "icon_folder",
         "layer0.texture": "Theme - Cobalt2/icons/folder@2x.png",
         "layer0.opacity": 0.6,
-        "content_margin": [7, 7]
+        "layer0.inner_margin": [1, 0],
+        "content_margin": [8, 7]
     },
     {
         "class": "icon_folder",
@@ -68,10 +74,8 @@
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Theme - Cobalt2/Cobalt2/folder_open.png",
         "layer0.opacity": 1,
-        "content_margin": [7, 8]
+        "content_margin": [8, 8]
     },
-
-
     {
         "class": "disclosure_button_control",
         "content_margin": 0,
