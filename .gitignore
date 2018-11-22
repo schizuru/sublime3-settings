@@ -11,15 +11,8 @@ Emmet\ Css\ Snippets/
 Theme\ -\ Cobalt2/
 AngularJS/
 Babel/
-
-User/*
-!User/snippets/
-!User/Package\ Control.sublime-settings
-!User/Default\ (OSX).sublime-keymap
-!User/Preferences.sublime-settings
-!User/CSS.sublime-settings
-!User/HTML.sublime-settings
-!User/Java\ Server\ Pages\ (JSP).sublime-settings
-!User/Cobalt2.sublime-theme
-!User/installer
-!User/Monokai.tmTheme
+User/Package\ Control.cache/
+User/*.merged-ca-bundle
+User/*.user-ca-bundle
+User/*.last-run
+User/*.crt

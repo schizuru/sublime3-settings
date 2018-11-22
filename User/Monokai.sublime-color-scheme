@@ -1,0 +1,34 @@
+// https://www.sublimetext.com/docs/3/color_schemes.html
+// https://www.sublimetext.com/docs/3/scope_naming.html
+
+{
+    "name": "Monakai Color Scheme",
+    "globals":
+    {
+        "background": "#000",
+    },
+    "rules":
+    [
+        {
+            "name": "HTML Comment",
+            "scope": "comment.block.html",
+            "foreground": "#75715E"
+        },
+        {
+            "name": "SSI include",
+            "scope": "comment.block.mit",
+            "foreground": "#ae81ff"
+        },
+        {
+            "name": "SSI include",
+            "scope": "comment.block.include.ssi",
+            "font_style": "italic",
+            "foreground": "#ffa100"
+        },
+        {
+            "name": "SSI",
+            "scope": "comment.block.ssi",
+            "foreground": "#fd971f"
+        }
+    ]
+}
