@@ -33,5 +33,9 @@
     {
         "keys": ["control+r"],
         "command": "toggle_side_bar"
+    },
+    {
+        "keys": ["control+s"],
+        "command": "change_quotes"
     }
 ]

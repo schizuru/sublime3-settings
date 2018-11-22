@@ -6,8 +6,10 @@
 	"installed_packages":
 	[
 		"AngularJS",
+		"Babel",
 		"BracketHighlighter",
 		"Case Conversion",
+		"ChangeQuotes",
 		"Emmet",
 		"Emmet Css Snippets",
 		"ExpandRegion",

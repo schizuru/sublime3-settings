@@ -507,6 +507,10 @@ contexts:
   # ng-
   tag-ng-attribute:
     - match: \b(ng-[a-zA-Z\-:]+)
+      push:
+        - tag-generic-attribute-meta
+        - tag-generic-attribute-equals
+        - generic-attribute-name
       captures:
         1: entity.other.attribute-name.ng.html
         2: punctuation.separator.key-value.html
@@ -519,6 +523,10 @@ contexts:
   # data-ng-
   tag-data-ng-attribute:
     - match: \b(data-ng-[a-zA-Z\-:]+)
+      push:
+        - tag-generic-attribute-meta
+        - tag-generic-attribute-equals
+        - generic-attribute-name
       captures:
         1: entity.other.attribute-name.data-ng.html
         2: punctuation.separator.key-value.html
