@@ -38,13 +38,16 @@
         "keys": ["control+s"],
         "command": "change_quotes"
     },
-    { "keys": ["super+shift+1"], "command": "convert_to_snake"},
-    { "keys": ["super+shift+2"], "command": "convert_to_screaming_snake"},
-    { "keys": ["super+shift+3"], "command": "convert_to_camel"},
-    { "keys": ["super+shift+4"], "command": "convert_to_pascal"},
-    { "keys": ["super+shift+5"], "command": "convert_to_dot"},
-    { "keys": ["super+shift+6"], "command": "convert_to_dash"},
-    { "keys": ["super+shift+7"], "command": "convert_to_separate_words"},
-    { "keys": ["super+shift+8"], "command": "convert_to_slash"},
-    { "keys": ["super+shift+9"], "command": "convert_to_back_slash"}
+    { "keys": ["alt+up"], "command": "upper_case"},
+    { "keys": ["alt+down"], "command": "lower_case"},
+    { "keys": ["alt+0"], "command": "title_case"},
+    { "keys": ["alt+1"], "command": "convert_to_snake"},
+    { "keys": ["alt+2"], "command": "convert_to_screaming_snake"},
+    { "keys": ["alt+3"], "command": "convert_to_camel"},
+    { "keys": ["alt+4"], "command": "convert_to_pascal"},
+    { "keys": ["alt+5"], "command": "convert_to_dot"},
+    { "keys": ["alt+6"], "command": "convert_to_dash"},
+    { "keys": ["alt+7"], "command": "convert_to_separate_words"},
+    { "keys": ["alt+8"], "command": "convert_to_slash"},
+    { "keys": ["alt+9"], "command": "convert_to_back_slash"}
 ]
