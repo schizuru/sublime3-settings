@@ -37,5 +37,14 @@
     {
         "keys": ["control+s"],
         "command": "change_quotes"
-    }
+    },
+    { "keys": ["super+shift+1"], "command": "convert_to_snake"},
+    { "keys": ["super+shift+2"], "command": "convert_to_screaming_snake"},
+    { "keys": ["super+shift+3"], "command": "convert_to_camel"},
+    { "keys": ["super+shift+4"], "command": "convert_to_pascal"},
+    { "keys": ["super+shift+5"], "command": "convert_to_dot"},
+    { "keys": ["super+shift+6"], "command": "convert_to_dash"},
+    { "keys": ["super+shift+7"], "command": "convert_to_separate_words"},
+    { "keys": ["super+shift+8"], "command": "convert_to_slash"},
+    { "keys": ["super+shift+9"], "command": "convert_to_back_slash"}
 ]
