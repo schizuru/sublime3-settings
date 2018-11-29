@@ -1,5 +1,25 @@
 [
     {
+        "keys": ["tab"],
+        "command": "expand_abbreviation_by_tab",
+        "context":
+            [
+                { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
+                { "match_all": true, "key": "selection_empty" },
+                { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+                { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+                { "match_all": true, "key": "is_abbreviation" }
+            ]
+    },
+    {
+        "keys": ["tab"],
+        "command": "next_field",
+        "context":
+            [
+                { "key": "has_next_field", "operator": "equal", "operand": true }
+            ]
+    },
+    {
         "keys": ["super+shift+space"],
         "command": "expand_region"
     },
@@ -38,16 +58,16 @@
         "keys": ["control+s"],
         "command": "change_quotes"
     },
-    { "keys": ["alt+up"], "command": "upper_case"},
-    { "keys": ["alt+down"], "command": "lower_case"},
-    { "keys": ["alt+0"], "command": "title_case"},
-    { "keys": ["alt+1"], "command": "convert_to_snake"},
-    { "keys": ["alt+2"], "command": "convert_to_screaming_snake"},
-    { "keys": ["alt+3"], "command": "convert_to_camel"},
-    { "keys": ["alt+4"], "command": "convert_to_pascal"},
-    { "keys": ["alt+5"], "command": "convert_to_dot"},
-    { "keys": ["alt+6"], "command": "convert_to_dash"},
-    { "keys": ["alt+7"], "command": "convert_to_separate_words"},
-    { "keys": ["alt+8"], "command": "convert_to_slash"},
-    { "keys": ["alt+9"], "command": "convert_to_back_slash"}
+    { "keys": ["alt+up"], "command": "upper_case" },
+    { "keys": ["alt+down"], "command": "lower_case" },
+    { "keys": ["alt+0"], "command": "title_case" },
+    { "keys": ["alt+1"], "command": "convert_to_snake" },
+    { "keys": ["alt+2"], "command": "convert_to_screaming_snake" },
+    { "keys": ["alt+3"], "command": "convert_to_camel" },
+    { "keys": ["alt+4"], "command": "convert_to_pascal" },
+    { "keys": ["alt+5"], "command": "convert_to_dot" },
+    { "keys": ["alt+6"], "command": "convert_to_dash" },
+    { "keys": ["alt+7"], "command": "convert_to_separate_words" },
+    { "keys": ["alt+8"], "command": "convert_to_slash" },
+    { "keys": ["alt+9"], "command": "convert_to_back_slash" }
 ]
