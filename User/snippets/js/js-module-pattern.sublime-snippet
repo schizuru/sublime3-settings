@@ -3,7 +3,7 @@
 var $0 = (function() {
 
     var publicMethodOne = function() {
-    
+
     };
 
     return {
@@ -14,5 +14,5 @@ var $0 = (function() {
 
 }());
 ]]></content>
-	<tabTrigger>jmp</tabTrigger>
+	<tabTrigger>jsModulePattern</tabTrigger>
 </snippet>

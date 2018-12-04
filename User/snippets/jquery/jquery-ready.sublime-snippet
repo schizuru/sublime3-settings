@@ -5,5 +5,5 @@
 });
 
 ]]></content>
-	<tabTrigger>jready</tabTrigger>
+	<tabTrigger>jQueryReady</tabTrigger>
 </snippet>

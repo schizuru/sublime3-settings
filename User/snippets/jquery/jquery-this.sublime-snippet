@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$('$1')$2
+\$(this)
 ]]></content>
-    <tabTrigger>jk</tabTrigger>
+    <tabTrigger>jQuerythis</tabTrigger>
 </snippet>

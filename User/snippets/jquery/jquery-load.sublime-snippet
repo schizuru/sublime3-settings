@@ -6,5 +6,5 @@
 });
 ]]>
 	</content>
-	<tabTrigger>jload</tabTrigger>
+	<tabTrigger>jQueryLoad</tabTrigger>
 </snippet>

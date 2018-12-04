@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+class $0 extends React.Component {
+
+}
+]]></content>
+	<tabTrigger>classComponent</tabTrigger>
+</snippet>

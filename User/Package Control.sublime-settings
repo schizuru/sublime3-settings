@@ -15,6 +15,7 @@
 		"ExpandRegion",
 		"GitGutter",
 		"Hayaku - tools for writing CSS faster",
+		"jsfmt",
 		"Package Control",
 		"PackageDev",
 		"PackageResourceViewer",
@@ -24,6 +25,7 @@
 		"SideBarEnhancements",
 		"SublimeLinter-eslint",
 		"SublimeLinter-jshint",
+		"SublimeLinter-jsxhint",
 		"SyncedSideBar",
 		"Theme - Cobalt2",
 		"Trimmer"

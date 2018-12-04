@@ -4,5 +4,5 @@
   $0
 });
 ]]></content>
-	<tabTrigger>jresize</tabTrigger>
+	<tabTrigger>jQueryResize</tabTrigger>
 </snippet>
