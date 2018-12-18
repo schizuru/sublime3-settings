@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+data-ng-selected="$1"
+]]></content>
+	<tabTrigger>data-ng-selected</tabTrigger>
+</snippet>

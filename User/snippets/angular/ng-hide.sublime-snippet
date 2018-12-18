@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+data-ng-hide="$1"
+]]></content>
+	<tabTrigger>data-ng-hide</tabTrigger>
+</snippet>

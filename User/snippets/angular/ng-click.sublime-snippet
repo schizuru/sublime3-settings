@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+data-ng-click="$1"
+]]></content>
+	<tabTrigger>data-ng-click</tabTrigger>
+</snippet>

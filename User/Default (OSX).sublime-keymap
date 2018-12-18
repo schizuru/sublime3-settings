@@ -95,6 +95,7 @@
         "keys": ["control+s"],
         "command": "change_quotes"
     },
+    { "keys": ["control+super+a"], "command": "alignment" },
     { "keys": ["alt+up"], "command": "upper_case" },
     { "keys": ["alt+down"], "command": "lower_case" },
     { "keys": ["alt+0"], "command": "title_case" },

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+data-ng-repeat="$1"
+]]></content>
+	<tabTrigger>data-ng-repeat</tabTrigger>
+</snippet>

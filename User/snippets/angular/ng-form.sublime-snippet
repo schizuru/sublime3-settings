@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+data-ng-form="$1"
+]]></content>
+	<tabTrigger>data-ng-form</tabTrigger>
+</snippet>

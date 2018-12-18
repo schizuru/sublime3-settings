@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+data-ng-model="$1"
+]]></content>
+	<tabTrigger>data-ng-model</tabTrigger>
+</snippet>

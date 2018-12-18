@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+data-ng-if="$1"
+]]></content>
+	<tabTrigger>data-ng-if</tabTrigger>
+</snippet>

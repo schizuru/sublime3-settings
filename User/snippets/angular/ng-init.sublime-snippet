@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+data-ng-init="$1"
+]]></content>
+	<tabTrigger>data-ng-init</tabTrigger>
+</snippet>
