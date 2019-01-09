@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+constructor($0) {
+    super($0);
+    $1
+}
+]]></content>
+	<tabTrigger>constructor</tabTrigger>
+</snippet>

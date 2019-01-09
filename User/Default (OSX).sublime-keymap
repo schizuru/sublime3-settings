@@ -1,60 +1,31 @@
 [
     {
-        "keys": ["tab"],
-        "command": "chain",
-        "args": {
-            "commands": [
-                ["expand_abbreviation_by_tab"],
-                ["reg_replace", {
-                    "replacements": ["js_class"]
-                }]
-            ]
-        },
-        "context":
-            [
-                {
-                    "operand": "source.js",
-                    "operator": "equal",
-                    "match_all": true,
-                    "key": "selector"
-                },
-                {
-                    "key": "selection_empty",
-                    "operator": "equal",
-                    "operand": true,
-                    "match_all": true
-                },
-                {
-                    "operator": "equal",
-                    "operand": false,
-                    "match_all": true,
-                    "key": "has_next_field"
-                },
-                {
-                    "operand": false,
-                    "operator": "equal",
-                    "match_all": true,
-                    "key": "auto_complete_visible"
-                },
-                {
-                    "match_all": true,
-                    "key": "is_abbreviation"
-                },
-                {
-                    "key": "preceding_text",
-                    "operator": "regex_contains",
-                    "operand": "(\\w+>\\w+|\\s(\\.?|a|div|span|p|button)\\.\\w+)",
-                    "match_all": true
-                }
-            ]
+        "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context": [
+            {
+                "operand": "source.js",
+                "operator": "equal",
+                "match_all": true,
+                "key": "selector"
+            },
+            {
+                "key": "selection_empty",
+                "operator": "equal",
+                "operand": true,
+                "match_all": true
+            }
+        ]
     },
-    {
-        "keys": ["tab"],
-        "command": "next_field",
-        "context":
-            [
-                { "key": "has_next_field", "operator": "equal", "operand": true }
-            ]
+    { "keys": ["tab"], "command": "next_field", "context":
+        [
+            { "key": "has_next_field", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["/"], "command": "close_tag", "args": { "insert_slash": true }, "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "(text.html, text.xml, meta.jsx.js) - string - comment", "match_all": true },
+            { "key": "preceding_text", "operator": "regex_match", "operand": ".*<$", "match_all": true },
+            { "key": "setting.auto_close_tags" }
+        ]
     },
     {
         "keys": ["super+shift+space"],
