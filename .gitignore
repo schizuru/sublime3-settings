@@ -5,6 +5,8 @@ pygments/
 pymdownx/
 python-jinja2/
 python-markdown/
+sublime_lib/
+pathlib/
 PyV8/
 pyyaml/
 jsfmt/
