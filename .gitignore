@@ -6,6 +6,7 @@ pymdownx/
 python-jinja2/
 python-markdown/
 sublime_lib/
+Typescript/
 pathlib/
 PyV8/
 pyyaml/
@@ -20,3 +21,5 @@ User/*.merged-ca-bundle
 User/*.user-ca-bundle
 User/*.last-run
 User/*.crt
+User/.jsbeautifyrc
+**/.DS_Store

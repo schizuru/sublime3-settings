@@ -22,7 +22,7 @@
 		"Package Control.cache",
 		"node_modules"
 	],
-	"font_size": 15,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"highlight_whitespaces_eol_highlight_scope_name": "highlight.whitespace",
@@ -41,7 +41,7 @@
 	"match_brackets": true,
 	"match_tags": true,
 	"show_definitions": false,
-	"tab_size": 4,
+	"tab_size": 2,
 	"theme": "Cobalt2.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true

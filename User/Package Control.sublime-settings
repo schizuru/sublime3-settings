@@ -22,6 +22,7 @@
 		"Hayaku - tools for writing CSS faster",
 		"jsfmt",
 		"LESS",
+		"Ngx HTML",
 		"Package Control",
 		"PackageDev",
 		"PackageResourceViewer",
@@ -35,6 +36,9 @@
 		"SublimeLinter-jsxhint",
 		"SyncedSideBar",
 		"Theme - Cobalt2",
-		"Trimmer"
+		"Trimmer",
+		"TypeScript",
+		"TypeScript Syntax",
+		"TypescriptCompletion"
 	]
 }
